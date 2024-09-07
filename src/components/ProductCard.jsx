@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import productsData from '../data/products.json'; // Asegúrate de que la ruta sea correcta
+import productsData from '/public/data/products.json'; // Asegúrate de que la ruta sea correcta
 import { useEffect, useState } from 'react';
 
 const ProductList = () => {
